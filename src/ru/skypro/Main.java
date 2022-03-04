@@ -45,6 +45,25 @@ public class Main {
         System.out.println("Маша теперь получает " + (int)newMashaIncome + " рублей. Ее доход вырос на " + (int)(newMashaIncome - MashaIncome) + " рублей.");
         System.out.println("Денис теперь получает " + (int)newDenisIncome + " рублей. Его доход вырос на " + (int)(newDenisIncome - DenisIncome) + " рублей.");
         System.out.println("Кристина теперь получает " + (int)newKristinaIncome + " рублей. Ее доход вырос на " + (int)(newKristinaIncome - KristinaIncome) + " рублей.");
+// ==============================================
+// ==============================================
+// Задача 6
+        int a = 12, b = 27, c = 44, d = 15, e = 9;
+        int result = a * (b + (c - d * e));
+        result = -result;
+        System.out.println("Результат задачи 6: " + result);
+// Задача 7
+        a = 5; b = 7; // тип переменных а и b был определен в задаче 6
+        b = b - a;
+        a = a + b;
+        b = a - b;
+        System.out.println("a= " + a + "; b= " + b);
+// Задача 8
+     a = 571;  // тип переменных а и b был определен в задаче 6
+     b = a % 100;
+     b = b / 10;
+     System.out.println("a= " + a + "; b= " + b);
+
 
     }
 }
